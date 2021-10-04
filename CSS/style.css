@@ -1,0 +1,79 @@
+.parrafo{
+    text-align: center;
+}
+
+#logo{
+   
+    width: 50%;
+}
+#logo2{
+    width: 200px;
+}
+
+.img_logo{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    
+    
+    background-color: darkblue;
+}
+button a{
+    color: aliceblue;
+}
+#button_center{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#boton_izquierdo{
+    justify-content: center;
+    border-bootom-left-radius: 30px;
+}
+#boton_derecho{
+    justify-content: center;
+    
+    border-top-right-radius: 30px;
+}
+
+.encabezado_servicios{
+    display: grid;
+}
+.contenedor_2{
+    display: grid;
+}
+#logo_encabezado{
+    grid-columns: 4;
+    display: inline;
+}
+#texto_encabezado{
+    grid-column: 8;
+    display: inline;
+}
+
+.contenedor_2{
+    
+    justify-content: center;
+    color: darkgray;
+}
+#boton_izquierdo{
+    
+}
+#boton_derecho{
+
+}
+
+@media (max-width: 760px){
+    #logo{
+        
+        width: 70%;
+    }
+
+
+}
